@@ -1,1 +1,1 @@
-# sanity-gatsby-portfolio-studio
+# sanity-gatsby-website-studio
