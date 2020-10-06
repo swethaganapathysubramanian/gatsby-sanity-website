@@ -1,9 +1,11 @@
 {
+  "name": "sanitygatsbywebsite",
   "private": true,
-  "name": "sanity-gatsby-website-studio",
-  "version": "1.0.3",
+  "version": "1.0.0",
+  "description": "",
   "main": "package.json",
-  "author": "Sanity <hello@sanity.io>",
+  "author": "Swetha G <smallcreativedevgroup@gmail.com>",
+  "license": "UNLICENSED",
   "scripts": {
     "dev": "sanity start",
     "format": "prettier-eslint --write \"**/*.js\" \"!node_modules/**\"",
@@ -12,6 +14,9 @@
     "lint": "eslint .",
     "test": "sanity check"
   },
+  "keywords": [
+    "sanity"
+  ],
   "dependencies": {
     "@sanity/base": "^1.150.2",
     "@sanity/block-content-to-react": "^2.0.7",
@@ -46,5 +51,9 @@
     "eslint-plugin-react": "^7.13.0",
     "eslint-plugin-standard": "^4.0.0",
     "prettier-eslint-cli": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/swethaganapathysubramanian/gatsby-sanity-website.git"
   }
 }
